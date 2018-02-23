@@ -4,9 +4,9 @@ class tp
 	{
 
 		int n=10;
-		if(n & 1)
+		if(n&1==1)
 			System.out.println("odd");
 		else
-			System.out.println("odd");
+			System.out.println("even");
 	}
 }
